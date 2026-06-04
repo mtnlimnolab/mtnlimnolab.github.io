@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Abby Ross",
+        "pic_name" : "images/abby.jpg"
+    },
+    {
+        "name" : "Katie Gannon",
+        "pic_name" : "images/katie.jpg"
+    },
+    {
+        "name" : "Adeline Kelly",
+        "pic_name" : "images/adeline.jpg"
+    }
+]

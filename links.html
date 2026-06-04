@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Related Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar-container">
+        <div class="navbar left">
+            <h1 class="logo">Loch Vale</h1>
+        </div>
+
+        <div class="navbar right">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="data.html">Data</a>
+            <a class="nav-link" href="links.html">Links</a>
+            <a class="nav-link" href="stories.html">Stories</a>
+            <a class="nav-link" href="publications.html">Publications</a>
+            <a class="nav-link" href="contact.html">People</a>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+
+        <h2 style="text-align: center;">Data Links</h2>
+
+        <div id="data"></div>
+
+        <script>
+        fetch("./data/data.json")
+        .then(response => response.json())
+        .then(publications => {
+            const container = document.getElementById("data");
+            publications.forEach(pub => {
+            container.innerHTML += `
+                <div class="publication-card">
+                <p>${pub.date}</p>
+                <a href="${pub.link}" class="data-title"><h3>${pub.title}</h3></a>
+                <p>${pub.body}</p>
+                <p>By: ${pub.by}</p>
+                </div>
+                <br>
+            `;
+            });
+        });
+        </script>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
