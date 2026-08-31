@@ -3,25 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stories</title>
+    <meta
+        name="description"
+        content="A plain-language overview of acid rain, nitrogen, and climate research at Loch Vale."
+    >
+    <title>Stories | Loch Vale Watershed Research</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-         <div class="navbar-container">
-        <div class="navbar left">
-            <h1 class="logo">Loch Vale</h1>
-        </div>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="site-logo" href="index.html">
+                <span class="site-logo__primary">Loch Vale</span>
+                <span class="site-logo__secondary">Watershed Research</span>
+            </a>
 
-        <div class="navbar right">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="data.html">Data</a>
-            <a class="nav-link" href="links.html">Links</a>
-            <a class="nav-link" href="stories.html">Stories</a>
-            <a class="nav-link" href="publications.html">Publications</a>
-            <a class="nav-link" href="contact.html">People</a>
-        </div>
-    </div>
-    <!-- Navbar End -->
+            <div class="site-nav__links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="data.html">Data</a>
+                <a class="nav-link" href="links.html">Links</a>
+                <a class="nav-link nav-link--active" href="stories.html">Stories</a>
+                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link" href="contact.html">People</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="story-page">
+        <header class="story-hero">
+            <div class="story-hero__content">
+                <p class="eyebrow">Research story</p>
+                <h1>What Loch Vale has shown</h1>
+
+                <p class="story-hero__intro">
+                    The record began with acid rain, grew to include nitrogen,
+                    and now helps explain how warming is changing mountain
+                    lakes.
+                </p>
+            </div>
+
+            <figure class="story-hero__media">
+                <img
+                    src="images/loch.png"
+                    alt="Loch Vale and the surrounding mountain watershed"
+                >
+
+                <figcaption>Loch Vale, Rocky Mountain National Park.</figcaption>
+            </figure>
+        </header>
+
+        <nav class="story-nav" aria-label="Story sections">
+            <a href="#acid-rain">Acid rain</a>
+            <a href="#nitrogen">Nitrogen</a>
+            <a href="#climate">Climate</a>
+        </nav>
+
+        <section id="acid-rain" class="story-section">
+            <header class="section-heading">
+                <p class="chapter-number">Story 1</p>
+                <h2>Acid rain started the work</h2>
+
+                <p class="section-lead">
+                    In the early 1980s, scientists wanted to know whether air
+                    pollution was making remote mountain lakes more acidic.
+                    Loch Vale became a place to measure that question carefully.
+                </p>
+            </header>
+
+            <div class="story-layout story-layout--text-media">
+                <div class="story-copy">
+                    <h3>What researchers measured</h3>
+
+                    <p>
+                        Samples from snow, streams, and lake outlets showed how
+                        sulfur and nitrogen entered the watershed and how much
+                        buffering capacity remained in the water.
+                    </p>
+
+                    <p>
+                        As sulfur pollution declined after national air-quality
+                        rules, the record helped show which changes were tied to
+                        cleaner air and which came from processes inside the
+                        watershed.
+                    </p>
+                </div>
+
+                <figure class="story-photo">
+                    <img
+                        src="images/rocks.jpg"
+                        alt="Rocky alpine terrain in the Loch Vale watershed"
+                    >
+
+                    <figcaption>
+                        Repeated sampling turned a policy concern into a clear
+                        chemical record.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="nitrogen" class="story-section story-section--alternate">
+            <header class="section-heading">
+                <p class="chapter-number">Story 2</p>
+                <h2>Nitrogen became the next concern</h2>
+
+                <p class="section-lead">
+                    Nitrogen is a nutrient, but too much of it can change soils,
+                    lakes, and alpine vegetation.
+                </p>
+            </header>
+
+            <div class="story-layout story-layout--media-text">
+                <figure class="story-photo">
+                    <img
+                        src="images/loch.png"
+                        alt="Loch Vale below steep mountain terrain"
+                    >
+
+                    <figcaption>
+                        Monitoring connects air pollution with lake and stream
+                        chemistry.
+                    </figcaption>
+                </figure>
+
+                <div class="story-copy">
+                    <h3>Science shaped policy</h3>
+
+                    <p>
+                        Research at Loch Vale helped document how reactive
+                        nitrogen moves through high-elevation ecosystems. That
+                        evidence supported Colorado's 2007 Nitrogen Deposition
+                        Reduction Plan for Rocky Mountain National Park.
+                    </p>
+
+                    <dl class="stat-list">
+                        <div>
+                            <dt>Plan established</dt>
+                            <dd>2007</dd>
+                        </div>
+
+                        <div>
+                            <dt>Deposition target</dt>
+                            <dd>1.5 kg N ha<sup>−1</sup> yr<sup>−1</sup></dd>
+                        </div>
+
+                        <div>
+                            <dt>Target year</dt>
+                            <dd>2032</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section id="climate" class="story-section">
+            <header class="section-heading">
+                <p class="chapter-number">Story 3</p>
+                <h2>Climate now shapes the signal</h2>
+
+                <p class="section-lead">
+                    Warmer summers, shifting snowpack, and earlier ice-off dates
+                    affect lake temperature, chemistry, and biology.
+                </p>
+            </header>
+
+            <div class="story-layout story-layout--text-media">
+                <div class="story-copy">
+                    <h3>Warming changes watershed chemistry</h3>
+
+                    <p>
+                        One important finding is that sulfate can rise inside
+                        the watershed even while sulfate pollution from the air
+                        declines. Warmer conditions may speed the weathering of
+                        sulfur-bearing rock.
+                    </p>
+
+                    <p>
+                        The same record also helps researchers study how warmer
+                        water and added nutrients affect algae, microbes, and
+                        other lake life.
+                    </p>
+                </div>
+
+                <figure class="story-photo">
+                    <img
+                        src="images/rocks.jpg"
+                        alt="Exposed rock and alpine terrain in the Loch Vale watershed"
+                    >
+
+                    <figcaption>
+                        Summer conditions influence both chemistry and biology.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <footer class="story-conclusion">
+                <p class="eyebrow">The takeaway</p>
+                <h2>Decades of measurements make change visible</h2>
+
+                <p>
+                    Loch Vale shows how clean-air policy, nutrient pollution,
+                    and climate change can overlap in one mountain watershed.
+                </p>
+            </footer>
+        </section>
+    </main>
 </body>
 </html>

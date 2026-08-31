@@ -2,70 +2,197 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Loch Vale watershed research in Rocky Mountain National Park, Colorado."
+    >
+
+    <title>Loch Vale Watershed Research</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="site-logo" href="index.html">
+                <span class="site-logo__primary">Loch Vale</span>
+                <span class="site-logo__secondary">Watershed Research</span>
+            </a>
 
-    <!-- Navbar -->
-    <div class="navbar-container">
-        <div class="navbar left">
-            <h1 class="logo">Loch Vale</h1>
-        </div>
+            <div class="site-nav__links">
+                <a class="nav-link nav-link--active" href="index.html">Home</a>
+                <a class="nav-link" href="data.html">Data</a>
+                <a class="nav-link" href="links.html">Links</a>
+                <a class="nav-link" href="stories.html">Stories</a>
+                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link" href="contact.html">People</a>
+            </div>
+        </nav>
+    </header>
 
-        <div class="navbar right">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="data.html">Data</a>
-            <a class="nav-link" href="links.html">Links</a>
-            <a class="nav-link" href="stories.html">Stories</a>
-            <a class="nav-link" href="publications.html">Publications</a>
-            <a class="nav-link" href="contact.html">People</a>
-        </div>
-    </div>
-    <!-- Navbar End -->
+    <main>
+        <section class="home-hero">
+            <div class="home-hero__content">
+                <p class="eyebrow">Rocky Mountain National Park, Colorado</p>
 
+                <h1>Loch Vale Watershed Research</h1>
 
-    <div id="homepage-container" class="page-container">
-
-            <div class="overview-section">
-                <img class="left-pic" src="images/loch.png" alt="loch pic">
-
-                <h2 style="text-align: center;">A Brief Introduction</h2>
-                <!-- <br> -->
-
-                <p>The Loch Vale Watershed is located in Rocky Mountain National Park, Colorado. Long-term ecological research and 
-                    monitoring began in 1982 and addresses watershed-scale ecosystem processes, particularly as they respond to 
-                    atmospheric deposition and climate variability. The project is a cooperative effort between the U.S. Geological 
-                    Survey (USGS), National Park Service (NPS), and Colorado State University (CSU). Support for data collection is 
-                    jointly provided by the USGS Western Mountain Initiative (WMI) and Water, Energy, and Biogeochemical Budgets (WEBB) 
-                    programs. Monitoring of climate, hydrology, precipitation chemistry, and surface water quality allows analysis of 
-                    long-term trends and distinction between natural and human-caused disturbances. Research efforts are diverse and 
-                    include ecological response to nitrogen deposition, climate variability and change, microbial activity in sub-alpine 
-                    and alpine soils, hydrologic flow paths, and the response of aquatic organisms to disturbance. These research activities 
-                    provide knowledge about the broad range of processes that influence high-elevation ecosystems in the Rocky Mountains. 
-                    This website provides information about the research program, including access to maps and data.
+                <p class="home-hero__intro">
+                    Since 1982, scientists have measured climate, water, snow,
+                    and lake chemistry in this high-elevation watershed.
                 </p>
+
+                <div class="home-hero__actions">
+                    <a class="button-link" href="data.html">View data</a>
+                    <a class="text-link" href="stories.html">
+                        Read the story
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
             </div>
 
-            <div class="row-container">
-                <img class="right-pic" src="images/rocks.jpg" alt="rocks">
-                <p>The Loch Vale watershed is located directly east of the continental divide in Rocky Mountain National Park, Colorado. 
-                    The watershed is 660 hectares in size and ranges in elevation from 3,110 m (10,201 ft) at the Loch Outlet to 4,009 m 
-                    (13,153 ft) at Taylor Peak. There are three lakes in the watershed: The Loch, Lake of Glass, and Sky Pond. The watershed 
-                    is divided into two main sub-basins, with Andrews Creek draining the northern sub-basin and Icy Brook draining the 
-                    southern sub-basin. The majority of Rocky Mountain National Park is underlain by igneous (granite) and metamorphic 
-                    (schist and gneiss) formations. The watershed consists of 83% bare rock, boulder fields, and snow/ice; 11% tundra; 
-                    5% forest; and 1% subalpine meadow (Baron 1992). The sub-alpine forests of Loch Vale are dominated by Engelmann spruce 
-                    (Picea englemannii) and sub-alpine fir (Abies lasiocarpa), with the average tree age around 500 years old. Average 
-                    annual precipitation is 110 cm with 65-80% originating as snow. A more detailed description of the Loch Vale watershed 
-                    can be found in Baron (1992).
-                </p>   
+            <figure class="home-hero__media">
+                <img
+                    src="images/loch.png"
+                    alt="Loch Vale surrounded by steep mountain terrain in Rocky Mountain National Park"
+                >
+
+                <figcaption>
+                    The Loch sits below alpine ridges and subalpine forest.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="home-stats" aria-label="Key facts about Loch Vale">
+            <article class="home-stat">
+                <span class="home-stat__value">1982</span>
+                <span class="home-stat__label">Monitoring began</span>
+            </article>
+
+            <article class="home-stat">
+                <span class="home-stat__value">660 ha</span>
+                <span class="home-stat__label">Watershed area</span>
+            </article>
+
+            <article class="home-stat">
+                <span class="home-stat__value">3,110–4,009 m</span>
+                <span class="home-stat__label">Elevation range</span>
+            </article>
+
+            <article class="home-stat">
+                <span class="home-stat__value">3 lakes</span>
+                <span class="home-stat__label">The Loch, Lake of Glass, Sky Pond</span>
+            </article>
+        </section>
+
+        <section class="home-section">
+            <header class="section-heading home-section__heading">
+                <p class="eyebrow">About the program</p>
+                <h2>What researchers track</h2>
+            </header>
+
+            <div class="topic-card-grid">
+                <article class="topic-card">
+                    <span class="topic-card__number">01</span>
+                    <h3>Climate and snow</h3>
+                    <p>
+                        Snowpack, temperature, and seasonal timing shape streamflow
+                        and lake conditions.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <span class="topic-card__number">02</span>
+                    <h3>Air pollution</h3>
+                    <p>
+                        Rain, snow, and dust carry sulfur and nitrogen into the
+                        watershed.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <span class="topic-card__number">03</span>
+                    <h3>Water chemistry</h3>
+                    <p>
+                        Streams and lakes show how the watershed responds to
+                        changing inputs.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <span class="topic-card__number">04</span>
+                    <h3>Lake life</h3>
+                    <p>
+                        Nutrients, temperature, and ice cover influence algae,
+                        microbes, and other aquatic organisms.
+                    </p>
+                </article>
             </div>
-    </div>
+        </section>
 
+        <section class="home-section home-section--landscape">
+            <div class="landscape-feature">
+                <figure class="landscape-feature__media">
+                    <img
+                        src="images/rocks.jpg"
+                        alt="Exposed rock and alpine terrain in the Loch Vale watershed"
+                    >
+                </figure>
 
+                <div class="landscape-feature__content">
+                    <p class="eyebrow">The place</p>
+                    <h2>A small watershed with a long record</h2>
 
-    <!-- to add another text block, ... -->
+                    <p>
+                        Loch Vale lies east of the Continental Divide. Andrews
+                        Creek drains the north side; Icy Brook drains the south.
+                    </p>
+
+                    <dl class="land-cover-list">
+                        <div>
+                            <dt>83%</dt>
+                            <dd>Rock, boulders, snow, and ice</dd>
+                        </div>
+
+                        <div>
+                            <dt>11%</dt>
+                            <dd>Alpine tundra</dd>
+                        </div>
+
+                        <div>
+                            <dt>5%</dt>
+                            <dd>Subalpine forest</dd>
+                        </div>
+
+                        <div>
+                            <dt>1%</dt>
+                            <dd>Meadow</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div>
+                <p class="site-footer__title">Loch Vale Watershed Research</p>
+            </div>
+
+            <div class="site-footer__links">
+                <a href="data.html">Data</a>
+                <a href="stories.html">Stories</a>
+                <a href="publications.html">Publications</a>
+                <a href="contact.html">People</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,3 +1,4 @@
+
 [
     {
         "date" : "October 1, 2025",
@@ -6,5 +7,286 @@
         "authors" : "Hideaki Shibata, Jill Baron, Allison Leach, Daniel Liptzin, Azusa Oita, Timothy Weinmann, Tapan Adhya, Icarus Allen, Rocío Alonso, Yuri Artioli, W. Troy Baisden, Bill Bealey, Victoria Bermejo, Jorn Bruggeman, Tom Bruulsema, Juergen Burkhardt, Christopher Clark, Jana E. Compton, Tommy Dalgaard, Wim de Vries, Elizabeth Dukes, Sadeo Eguchi, Jan Willem Erisman, James Galloway, Mekonnen Hailemariam Giweta, I. Gonzalez-Fernandez, Hans van Grinsven, Peter M. Groffman, Baojing Gu, Steven Hall, Kentaro Hayashi , Erik Hobbie, Jason Holt, Laurence Jones, Kiwami Katagiri, Luis Lassaletta, Xia Liang, Erik Lilleskov, Cargele Masso, Kazuyo Matsubae, Miguel Quemada, Mohammad Riaz, Bret Schichtel, Junko Shindo, Ming-Chien Su, Pamela Templer, Johan Tidblad, Alicia Zheng",
         "by" : "Ecosystems Mission Area, Fort Collins Science Center",
         "link" : "https://www.usgs.gov/publications/inms-guidance-document-nitrogen-impact-assessment-methods"
+    },
+    {
+    "date" : "December 15, 2024",
+    "title" : "Controls on lake pelagic primary productivity: Formalizing the nutrient-color paradigm",
+    "description" : "Understanding controls on primary productivity is essential for describing ecosystems and their responses to environmental change. Lake primary production is strongly controlled by inputs of nutrients and colored dissolved organic matter. While past studies have developed mathematical models of this nutrient-color paradigm, broad empirical tests of these models are scarce. We used data...",
+    "authors" : "Isabella Oleksy, Christopher T. Solomon, Stuart E. Jones, Carly Olson, Brittni Bertolet, Rita Adrian, Sheel Bansal, Jill Baron, Soren Brothers, Sudeep Chandra, Hsiu-Mei Chou, William Colom-Montero, Joshua Culpeper, Elvira de Eyto, Matthew Farragher, Sabine Hilt, Kristen T. Holeck, Garabet Kazanjian, Marcus Klaus, Jennifer Klug, Jan Kohler, Alo Laas, Erik Lundin, Alice Parkes, Kevin C. Rose, Lars Rustam, James A. Rusak, Facundo Scordo, Michael J. Vanni, Piet Verburg, Gesa A. Weyhenmeyer",
+    "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+    "link" : "https://www.usgs.gov/publications/controls-lake-pelagic-primary-productivity-formalizing-nutrient-color-paradigm"
+    },
+    {
+        "date" : "March 14, 2024",
+        "title" : "Climatic variability as a principal driver of primary production in the southernmost subalpine Rocky Mountain lake",
+        "description" : "Mountain lakes are sensitive indicators of anthropogenically driven global change, with lake sediment records documenting increased primary production during the twentieth century. Atmospheric nutrient deposition and warming have been attributed to changes in other Western mountain lakes, however, the intensity of these drivers varies. We analyzed a sediment core representing a 270-year...",
+        "authors" : "Anna Shampain, Jill Baron, Peter R. Leavitt, Sarah A. Spaulding",
+        "by" : "Ecosystems Mission Area, Water Resources Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/climatic-variability-principal-driver-primary-production-southernmost-subalpine"
+    },
+    {
+        "date" : "December 4, 2023",
+        "title" : "Proximity to roads does not modify inorganic nitrogen deposition in a topographically complex, high traffic, subalpine forest",
+        "description" : "Vehicles are an important source for N deposition that may negatively impact roadside ecosystems. While elevated roadside N deposition has been found in many locations, it is not yet known if vehicle emissions cause measurable increases of N deposition in complex, mountainous terrain adjacent to roads. To address this, this study investigated the effect of vehicle N emissions on...",
+        "authors" : "Katherine S. Rocci, M. Francesca Catrufo, Jill Baron",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/proximity-roads-does-not-modify-inorganic-nitrogen-deposition-topographically-complex"
+    },
+    {
+        "date" : "October 31, 2023",
+        "title" : "Warming-induced changes in benthic redox as a potential driver of increasing benthic algal blooms in high-elevation lakes",
+        "description" : "Algal blooms appear to be increasing on benthic substrates of naturally nutrient-poor lakes worldwide, yet common drivers across these systems remain elusive. The phenomenon has been notable in high-elevation mountain lakes, which is enigmatic given their relative remoteness from human disturbance. We suggest that warming-induced changes in redox conditions that promote nutrient release...",
+        "authors" : "Stephanie E. Hampton, Jill Baron, Robert Ladwig, Ryan P. McClure, Michael Frederick Meyer, Isabella Oleksy, Anna Shampain",
+        "by" : "Water Resources Mission Area, Ecosystems Land Change Science Program",
+        "link" : "https://www.usgs.gov/publications/warming-induced-changes-benthic-redox-potential-driver-increasing-benthic-algal"
+    },
+    {
+        "date" : "June 1, 2023",
+        "title" : "John Wesley Powell Center for Analysis and Synthesis Newsletter, volume 7, issue 1",
+        "description" : "The John Wesley Powell Center for Synthesis & Analysis is a USGS initiative that aims to foster innovative thinking in Earth system science through collaborative analysis and synthesis of existing data and information. The Powell Center supports working groups that address some of the most pressing and complex questions facing society, such as climate change, biodiversity loss, water...",
+        "authors" : "Jill Baron, Demi Jasmine Bingham",
+        "by" : "Science Synthesis, Analysis, and Research Program, Science Analytics and Synthesis (SAS), John Wesley Powell Center for Analysis and Synthesis",
+        "link" : "https://www.usgs.gov/publications/john-wesley-powell-center-analysis-and-synthesis-newsletter-volume-7-issue-1"
+    },
+    {
+        "date" : "April 26, 2023",
+        "title" : "Marmots do not drink coffee: Human urine contributions to the nitrogen budget of a popular national park destination",
+        "description" : "Reactive nitrogen (Nr) concentrations are higher than expected for mountain lakes in Rocky Mountain National Park, and for many years, high Nr concentrations have been attributed to atmospheric Nr deposition from regional and more distant emission sources, including combustion of fossil fuels and agricultural activities. Here, we estimated the contribution from a very local source, that...",
+        "authors" : "Jill Baron, Timothy Weinmann, Varun Kirk Acharya, Caitlin Charlton, Koren Nydick, Scott Esser",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/marmots-do-not-drink-coffee-human-urine-contributions-nitrogen-budget-popular"
+    },
+    {
+        "date" : "September 16, 2022",
+        "title" : "Quality assurance report for Loch Vale Watershed, 2010–19",
+        "description" : "The Loch Vale Watershed Research and Monitoring Program collects long-term datasets of ecological and biogeochemical parameters in Rocky Mountain National Park to support both (1) management of this protected area and (2) research into watershed-scale ecosystem processes as those processes respond to atmospheric deposition and climate variability. The program collects data on...",
+        "authors" : "Timothy Weinmann, Jill S. Baron, Amanda Jayo",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/quality-assurance-report-loch-vale-watershed-2010-19"
+    },
+    {
+        "date" : "November 19, 2021",
+        "title" : "Identifying factors that affect mountain lake sensitivity to atmospheric nitrogen deposition across multiple scales",
+        "description" : "Increased nitrogen (N) deposition rates over the past century have affected both North American and European mountain lake ecosystems. Ecological sensitivity of mountain lakes to N deposition varies, however, because chemical and biological responses are modulated by local watershed and lake properties. We evaluated predictors of mountain lake sensitivity to atmospheric N deposition...",
+        "authors" : "Benjamin Burpee, Jasmine Saros, Leora Nanus, Jill S. Baron, Janice Brahney, Kyle Christianson, Taylor Gantz, Andi Heard, Beth Hundey, Karin Koinig, Jiri Kopacek, Katrina Moser, Koren Nydick, Isabella A. Oleksy, Steven Sadro, Ruben Sommaruga, Rolf Vinebrooke, Jason Williams",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/identifying-factors-affect-mountain-lake-sensitivity-atmospheric-nitrogen-deposition"
+    },
+    {
+        "date" : "October 12, 2021",
+        "title" : "Persistent nitrate in alpine waters with changing atmospheric deposition and warming trends",
+        "description" : "Nitrate concentrations in high-elevation lakes of the Colorado Front Range remain elevated despite declining trends in atmospherically deposited nitrate since 2000. The current source of this elevated nitrate in surface waters remains elusive, given shifts in additional nitrogen sources via glacial inputs and atmospheric ammonium deposition. We present the complete isotopic composition...",
+        "authors" : "Sydney C. Clark, Rebecca T. Barnes, Isabella A. Oleksy, Jill S. Baron, Meredith G. Hastings",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/persistent-nitrate-alpine-waters-changing-atmospheric-deposition-and-warming-trends"
+    },
+    {
+        "date" : "July 13, 2021",
+        "title" : "Maintaining momentum for collaborative working groups in a post-pandemic world",
+        "description" : "Scientific progress depends in part on our ability to synthesize heterogeneous data and ideas into new models and paradigms. In environmental sciences, such synthesis has been particularly effective when conducted by collaborative working groups: diverse groups of researchers and practitioners brought together for a concentrated period of collaboration on key questions. Such work is...",
+        "authors" : "Diane Srivastava, Marten Winter, Louis Gross, Jena Paul Metzger, Jill S. Baron, Nicolas Mouquet, Thomas Meagher, Ben Halpern, Valerio Pillar",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/maintaining-momentum-collaborative-working-groups-post-pandemic-world"
+    },
+    {
+        "date" : "July 7, 2021",
+        "title" : "Blue waters, green bottoms: Benthic filamentous algal blooms are an emerging threat to clear lakes worldwide",
+        "description" : "Nearshore (littoral) habitats of clear lakes with high water quality are increasingly experiencing unexplained proliferations of filamentous algae that grow on submerged surfaces. These filamentous algal blooms (FABs) are sometimes associated with nutrient pollution in groundwater, but complex changes in climate, nutrient transport, lake hydrodynamics, and food web structure may also...",
+        "authors" : "Yvonne Vadeboncoeur, Marianne V. Moore, Simon D. Stewart, Sudeep Chandra, Karen Atkins, Jill S. Baron, Keith Bouma-Gregson, Soren Brothers, Stephen Francoeur, Laurel Genzoli, Scott N. Higgins, Sabine Hilt, Leon R. Katona, David Kelly, Isabella Oleksy, Ted Ozersky, Mary Powel, Derek Roberts, Oleg Timoshkin, Flavia Tromboni, M. Jake Vander Zanden, Ekaterina Volkova, Sean Waters, Susanna A. Wood, Masumi Yamamuro",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/blue-waters-green-bottoms-benthic-filamentous-algal-blooms-are-emerging-threat-clear"
+    },
+    {
+    "date" : "June 28, 2021",
+    "title" : "A more representative community of ecologists",
+    "description" : "Ecologists play a crucial role in providing solutions to the challenges facing the world. For most of the history of the field, however, the science of ecology has been pursued by white men, and increasingly, by white women. This lack of diversity is untenable today, not only because it is socially unjust, but also because solving environmental problems requires diversity. Ecology as a...",
+    "authors" : "David S. Schimel, Jill S. Baron",
+    "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+    "link" : "https://www.usgs.gov/publications/a-more-representative-community-ecologists"
+    },
+    {
+        "date" : "February 24, 2021",
+        "title" : "Long-term ecosystem and biogeochemical research in Loch Vale watershed, Rocky Mountain National Park, Colorado",
+        "description" : "Loch Vale watershed was instrumented in 1983 with initial support from the National Acid Precipitation Assessment Program to ask whether ecosystems of Rocky Mountain National Park (RMNP) were affected by acidic atmospheric deposition. Research and monitoring activities were expanded in 1991 by the U.S. Geological Survey Water, Energy, and Biogeochemical Budgets program to understand the...",
+        "authors" : "Jill S. Baron, David W. Clow, Isabella A. Oleksy, Timothy Weinmann, Caitlin Charlton, Amanda Jayo",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/long-term-ecosystem-and-biogeochemical-research-loch-vale-watershed-rocky-mountain"
+    },
+    {
+        "date" : "February 12, 2021",
+        "title" : "Nutrients and warming alter mountain lake benthic algal structure and function",
+        "description" : "In recent years, benthic algae have been increasing in abundance in the littoral zones of oligotrophic lakes, but causality has been hard to assign. We used field and laboratory experiments to explore the implications of increasing water temperature and nutrient availability for benthic algal assemblages and ecosystem processes in a Colorado alpine lake. We tested the effect of nutrient...",
+        "authors" : "Isabella A. Oleksy, Jill S. Baron, Whitney S. Beck",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/nutrients-and-warming-alter-mountain-lake-benthic-algal-structure-and-function"
+    },
+    {
+        "date" : "November 10, 2020",
+        "title" : "The INI North American Regional Nitrogen Center: 2011–2015 nitrogen activities in North America",
+        "description" : "The North American Nitrogen Center (NANC) carries out three main charges: (1) conducting assessments on nitrogen (N) flows within North America and the consequences for human health, water resources, biodiversity, and greenhouse gas emissions; (2) facilitating efforts to develop solutions to the problem of excess nitrogen in agricultural, institutional, and natural resource management...",
+        "authors" : "Jill S. Baron, Eric A. Davidson",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/ini-north-american-regional-nitrogen-center-2011-2015-nitrogen-activities-north"
+    },
+    {
+        "date" : "November 10, 2020",
+        "title" : "Global challenges for nitrogen science-policy interactions: Towards the International Nitrogen Management System (INMS) and improved coordination between multi-lateral environmental agreements",
+        "description" : "Human interference with the nitrogen cycle has doubled reactive nitrogen inputs to the global biosphere over the past century, leading to changes across multiple environmental issues that require urgent action. Nitrogen fertilizers and biological nitrogen fixation have allowed benefits of increased crop harvest and livestock production, while in some areas there is insufficient nitrogen...",
+        "authors" : "Mark A. Sutton, Clare M. Howard, Will J. Brownlie, David Kanter, Wim de Vries, Tapan Adhya, Jean Ometto, Jill S. Baron, Wilfried Winiwarter, Xiaotang Ju, Cargele Masso, Oene Oenema, N. Raghuram, Hans J.M. van Grinsven, Isabelle Van der Beck, Christopher J. Cox, Steffen Hansen, Ramesh Ramachandran, W. Kevin Hicks",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/global-challenges-nitrogen-science-policy-interactions-towards-international-nitrogen"
+    },
+    {
+        "date" : "August 4, 2020",
+        "title" : "Ecological forecasting—21st century science for 21st century management",
+        "description" : "Natural resource managers are coping with rapid changes in both environmental conditions and ecosystems. Enabled by recent advances in data collection and assimilation, short-term ecological forecasting may be a powerful tool to help resource managers anticipate impending near-term changes in ecosystem conditions or dynamics. Managers may use the information in forecasts to minimize the...",
+        "authors" : "John B. Bradford, Jake Weltzin, Molly L. McCormick, Jill Baron, Zack Bowen, Sky Bristol, Daren M. Carlisle, Theresa Crimmins, Paul C. Cross, Joe DeVivo, Mike Dietze, Mary Freeman, Jason Goldberg, Mevin Hooten, Leslie Hsu, Karen Jenni, Jennifer L. Keisman, Jonathan G. Kennen, Kathy Lee, David P. Lesmes, Keith A. Loftin, Brian W. Miller, Peter S. Murdoch, Jana Newman, Karen L. Prentice, Imtiaz Rangwala, Jordan Read, Jennifer Sieracki, Helen Sofaer, Steve Thur, Gordon Toevs, Francisco Werner, C. LeAnn White, Timothy White, Mark T. Wiltermuth",
+        "by" : "Ecosystems Mission Area, Water Resources Mission Area, Science Synthesis, Analysis, and Research Program, Contaminant Biology, Environmental Health Program, Science Analytics and Synthesis (SAS), Central Plains Water Science Center, Eastern Ecological Science Center, Fort Collins Science Center, Maryland-Delaware-D.C. Water Science Center, National Wildlife Health Center, New Jersey Water Science Center, Pacific Island Ecosystems Research Center, Southwest Biological Science Center, Upper Midwest Environmental Sciences Center, Upper Midwest Water Science Center",
+        "link" : "https://www.usgs.gov/publications/ecological-forecasting-21st-century-science-21st-century-management"
+    },
+    {
+        "date" : "July 24, 2020",
+        "title" : "Key components and contrasts in the nitrogen budget across a US-Canadian transboundary watershed",
+        "description" : "Watershed nitrogen (N) budgets provide insights into drivers and solutions for groundwater and surface water N contamination. We constructed a comprehensive N budget for the transboundary Nooksack River Watershed (British Columbia, Canada, and Washington, USA) using locally derived data, national statistics, and standard parameters. Feed imports for dairy (mainly in the United States)...",
+        "authors" : "Jiajia Lin, Jana Compton, Chris Clark, Shabtai Bittman, Donna Schwede, Peter Homann, Peter Kiffney, David Hooper, Gary Bahr, Jill S. Baron",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/key-components-and-contrasts-nitrogen-budget-across-a-us-canadian-transboundary"
+    },
+    {
+        "date" : "July 8, 2020",
+        "title" : "Nutrients and warming interact to force mountain lakes into unprecedented ecological state",
+        "description" : "While deposition of reactive nitrogen (N) in the 20th century has been strongly linked to changes in diatom assemblages in high-elevation lakes, pronounced and contemporaneous changes in other algal groups suggest additional drivers. We explored the origin and magnitude of changes in two mountain lakes from the end of the Little Ice Age at ca. 1850, to ca. 2010, using lake sediments. We...",
+        "authors" : "Isabella A. Oleksy, Jill S. Baron, Peter Leavitt, Sarah A. Spaulding",
+        "by" : "Ecosystems Mission Area, Water Resources Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/nutrients-and-warming-interact-force-mountain-lakes-unprecedented-ecological-state"
+    },
+    {
+        "date" : "May 18, 2020",
+        "title" : "Understanding mountain lakes in a changing world: Introduction to the special issue",
+        "description" : "No abstract available.",
+        "authors" : "Jill S. Baron, Sudeep Chandra, James J. Elser",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/understanding-mountain-lakes-a-changing-world-introduction-special-issue"
+    },
+    {
+        "date" : "February 3, 2020",
+        "title" : "The Modern Geological Survey; a model for research, innovation, synthjesis: A USGS perspective",
+        "description" : "Geological Surveys have long filled the role of providing Earth system science data and knowledge. These functions are increasingly complicated by accelerating environmental and societal change. Here we describe the USGS response to these evolving conditions. Underpinning the USGS approach is the recognition that many of the issues facing the U.S. and the world involve the interaction...",
+        "authors" : "Suzette Kimball, Martin B. Goldhaber, Jill S. Baron, Victor F. Labson",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/modern-geological-survey-a-model-research-innovation-synthjesis-a-usgs-perspective"
+    },
+    {
+        "date" : "October 31, 2019",
+        "title" : "2017 Monitoring and tracking wet nitrogen deposition at Rocky Mountain National Park",
+        "description" : "The Colorado Department of Public Health and Environment (CDPHE), the National Park Service (NPS), and the U.S. Environmental Protection Agency (EPA) issued the Nitrogen Deposition Reduction Plan (NDRP) in 2007 to address the effects and trends of nitrogen deposition at Rocky Mountain National Park (RMNP). The agencies chose a glidepath approach to reduce wet nitrogen deposition to a...",
+        "authors" : "Kristi Morris, M. Alisa Mast, Gregory A. Wetherbee, Jill S. Baron, Jim Cheatham, Jim Bromberg, Lisa Devore, James Hou, Kristi Gebhart, Mike Bell, David Gay, Michael Olson, Timothy Weinmann, Daniel Bowker",
+        "by" : "Water Resources Mission Area, Colorado Water Science Center",
+        "link" : "https://www.usgs.gov/publications/2017-monitoring-and-tracking-wet-nitrogen-deposition-rocky-mountain-national-park"
+    },
+    {
+        "date" : "October 3, 2019",
+        "title" : "Reducing wet ammonium deposition in Rocky Mountain National Park: The development and evaluation of a pilot early warning system for agricultural operations in eastern Colorado",
+        "description" : "Agricultural emissions are the primary source of ammonia (NH3) deposition in Rocky Mountain National Park (RMNP), a Class I area, that is granted special air quality protections under the Clean Air Act. Between 2014 and 2016, the pilot phase of the Colorado agricultural nitrogen early warning system (CANEWS) was developed for agricultural producers to voluntarily and temporarily minimize...",
+        "authors" : "Aaron Pena, Russ Schumacher, Scott Denning, William Faulkner, Jill Baron, Jay Ham, Dennis S. Ojima, Jeffrey Collett",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/reducing-wet-ammonium-deposition-rocky-mountain-national-park-development-and"
+    },
+    {
+        "date" : "July 23, 2019",
+        "title" : "Science needs for continued development of total nitrogen deposition budgets in the United States",
+        "description" : "The objectives of this white paper are to describe the state of the science with respect to total Nr deposition budgets in North America and the research needed to improve these budgets from both a measurement and modeling standpoint. The document is intended to serve as a plan for TDep research activities but also, more broadly, to provide program managers, natural resource managers...",
+        "authors" : "Gregory A. Wetherbee, Pamela H. Templar, Richard V. Pouyat, Stephen M. Decina, Brian M. Kerschner, Thomas H. Whitlow, Pamela E. Padgett, Donna B. Schwede, Jill Baron, David Clow, M. Alisa Mast, Graham A. Sexstone, Kristi H. Morris",
+        "by" : "Ecosystems Mission Area, Water Resources Mission Area, Fort Collins Science Center, Colorado Water Science Center",
+        "link" : "https://www.usgs.gov/publications/science-needs-continued-development-total-nitrogen-deposition-budgets-united-states"
+    },
+    {
+        "date" : "June 26, 2019",
+        "title" : "Assessing the chemistry and bioavailability of dissolved organic matter from glaciers and rock glaciers",
+        "description" : "As glaciers thaw in response to warming, they release dissolved organic matter (DOM) to alpine lakes and streams. The United States contains an abundance of both alpine glaciers and rock glaciers. Differences in DOM composition and bioavailability between glacier types, like rock and ice glaciers, remain undefined. To assess differences in glacier and rock glacier DOM we evaluated...",
+        "authors" : "Timothy S. Fegel, Claudia M. Boot, Corey D. Broeckling, Jill Baron, Edward K Hall",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/assessing-chemistry-and-bioavailability-dissolved-organic-matter-glaciers-and-rock"
+    },
+    {
+        "date" : "February 26, 2019",
+        "title" : "Long-term nitrogen addition shifts the soil nematode community to bacterivore-dominated and reduces its ecological maturity in a subalpine forest",
+        "description" : "Nitrogen deposition from anthropogenic sources is a global problem that reaches even the most remote ecosystems. Responses belowground vary by ecosystem, and have feedbacks to geochemical processes, including carbon storage. A long-term nitrogen addition study in a subalpine forest has shown carbon loss over time, atypical for a forest ecosystem. Loss of microbial biomass is likely...",
+        "authors" : "E. Ashley Shaw, Claudia M. Boot, John C. Moore, Diana H. Wall, Jill Baron",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/long-term-nitrogen-addition-shifts-soil-nematode-community-bacterivore-dominated-and"
+    },
+    {
+        "date" : "November 7, 2018",
+        "title" : "Wanted: Future leaders for ESA",
+        "description" : "A scientific society like ESA is not just an office, nor an annual meeting, nor one or more journals, and it cannot operate without volunteer leadership. ESA is its members. It is the collective efforts of many individuals that create a vibrant organization. Members step forward in service to the society and to the community review journal articles, organize symposia and field trips at...",
+        "authors" : "Jill Baron, Catherine O'Riordan",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/wanted-future-leaders-esa"
+    },
+    {
+        "date" : "July 4, 2017",
+        "title" : "Adding a nitrogen footprint to Colorado State University’s sustainability plan",
+        "description" : "As a large land grant university with more than 32,000 students, Colorado State University has both on-campus non-agricultural and agricultural sources of nitrogen (N) released to the environment. We used the Nitrogen Footprint Tool to estimate the amount of N released from different sectors of the university for the CSU 2014 academic year. The largest on campus sources were food...",
+        "authors" : "Jacob Kimiecik, Jill Baron, Timothy Weinmann, Emily Taylor",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/adding-a-nitrogen-footprint-colorado-state-universitys-sustainability-plan"
+    },
+    {
+        "date" : "June 30, 2017",
+        "title" : "Land before water: The relative temporal sequence of human alteration of freshwater ecosystems in the conterminous United States",
+        "description" : "Human alteration of ecosystems prior to Euro-American contact in the area that became the conterminous United States disproportionately affected terrestrial systems compared to freshwater ecosystems, primarily through the use of fire and agriculture in some regions of the United States. After circa 1600 AD, trapping of beaver, along with intensive modification of rivers and wetlands for...",
+        "authors" : "Ellen Wohl, Katherine B. Lininger, Jill Baron",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/land-water-relative-temporal-sequence-human-alteration-freshwater-ecosystems"
+    },
+    {
+        "date" : "June 29, 2017",
+        "title" : "Grand challenges for integrated USGS science — A workshop report",
+        "description" : "N/A",
+        "authors" : "Karen E. Jenni, Martin B. Goldhaber, Julio L. Betancourt, Jill S. Baron, Sky Bristol, Mary Cantrill, Paul E. Exter, Michael J. Focazio, John W. Haines, Lauren E. Hay, Leslie Hsu, Victor F. Labson, Kevin D. Lafferty, K. A. Ludwig, Paul C. D. Milly, Toni L. Morelli, Suzette A. Morman, Nedal T. Nassar, Timothy R. Newman, Andrea C. Ostroff, Jordan S. Read, Sasha C. Reed, Carl D. Shapiro, Richard A. Smith, Ward E. Sanford, Terry L. Sohl, Edward G. Stets, Adam J. Terando, Donald E. Tillitt, Michael A. Tischler, Patricia L. Toccalino, David J. Wald, Mark P. Waldrop, Anne Wein, Jake F. Weltzin, Christian E. Zimmerman",
+        "by" : "Science Synthesis, Analysis, and Research Program, Science Analytics and Synthesis (SAS), Science and Decisions Center, Earth Resources Observation and Science (EROS) Center, Land Use Land Cover Modeling",
+        "link" : "https://www.usgs.gov/publications/grand-challenges-integrated-usgs-science-workshop-report"
+    },
+    {
+        "date" : "June 7, 2017",
+        "title" : "Synthesis centers as critical research infrastructure",
+        "description" : "Demand for the opportunity to participate in a synthesis-center activity has increased in the years since the US National Science Foundation (NSF)–funded National Center for Ecological Analysis and Synthesis (NCEAS) opened its doors in 1995 and as more scientists across a diversity of scientific disciplines have become aware of what synthesis centers provide. The NSF has funded four...",
+        "authors" : "Jill Baron, Alison Specht, Eric Garnier, Pamela Bishop, C. Andrew Campbell, Frank W. Davis, Bruno Fady, Dawn Field, Louis J. Gross, Siddeswara M. Guru, Benjamin S Halpern, Stephanie E. Hampton, Peter R. Leavitt, Thomas R. Meagher, Jean Ometto, John N. Parker, Richard Price, Casey H. Rawson, Allen Rodrigo, Laura A. Sheble, Marten Winter",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center, John Wesley Powell Center for Analysis and Synthesis",
+        "link" : "https://www.usgs.gov/publications/synthesis-centers-critical-research-infrastructure"
+    },
+    {
+        "date" : "April 13, 2017",
+        "title" : "The Nitrogen Footprint Tool network: A multi-institution program to reduce nitrogen pollution",
+        "description" : "Anthropogenic sources of reactive nitrogen have local and global impacts on air and water quality and detrimental effects on human and ecosystem health. This paper uses the nitrogen footprint tool (NFT) to determine the amount of nitrogen (N) released as a result of institutional consumption. The sectors accounted for include food (consumption and upstream production), energy...",
+        "authors" : "Elizabeth A. Castner, Allison M. Leah, Neal Leary, Jill Baron, Jana E. Compton, James N. Galloway, Meredith G. Hastings, Jacob Kimiecik, Jonathan Lantz-Trissel, Elizabeth de la Riguera, Rebecca Ryals",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/nitrogen-footprint-tool-network-a-multi-institution-program-reduce-nitrogen-pollution"
+    },
+    {
+        "date" : "January 25, 2017",
+        "title" : "Best practices for virtual participation in meetings: Experiences from synthesis centers",
+        "description" : "The earth environment is a complex system, in which collaborative scientific approaches can provide major benefits by bringing together diverse perspectives, methods, and data, to achieve robust, synthetic understanding (Fig. 1). Face-to-face scientific meetings remain extremely valuable because of the opportunity to build deep mutual trust and understanding, and develop new...",
+        "authors" : "Stephanie E. Hampton, Benjamin S. Halpern, Marten Winter, Jennifer K. Balch, John N. Parker, Jill Baron, Margaret Palmer, Mark P. Schildhauer, Pamela Bishop, Thomas R. Meagher, Alison Specht",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center, John Wesley Powell Center for Analysis and Synthesis",
+        "link" : "https://www.usgs.gov/publications/best-practices-virtual-participation-meetings-experiences-synthesis-centers"
+    },
+    {
+        "date" : "January 1, 2017",
+        "title" : "Earth Stewardship: An initiative by the Ecological Society of America to foster engagement to sustain Planet Earth",
+        "description" : "The Ecological Society of America (ESA) has responded to the growing commitment among ecologists to make their science relevant to society through a series of concerted efforts, including the Sustainable Biosphere Initiative (1991), scientific assessment of ecosystem management (1996), ESA’s vision for the future (2003), Rapid Response Teams that respond to environmental crises (2005)...",
+        "authors" : "F. Stuart Chapin, Steward T. A. Pickett, Mary E. Power, Scott L. Collins, Jill S. Baron, David W. Inouye, Monica G. Turner",
+        "by" : "Ecosystems Mission Area, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/earth-stewardship-an-initiative-ecological-society-america-foster-engagement-sustain"
+    },
+    {
+        "date" : "August 29, 2016",
+        "title" : "Key ecological responses to nitrogen are altered by climate change",
+        "description" : "Climate change and anthropogenic nitrogen deposition are both important ecological threats. Evaluating their cumulative effects provides a more holistic view of ecosystem vulnerability to human activities, which would better inform policy decisions aimed to protect the sustainability of ecosystems. Our knowledge of the cumulative effects of these stressors is growing, but we lack an...",
+        "authors" : "T.L. Greaver, C.M. Clark, J.E. Compton, D. Vallano, A. F. Talhelm, C.P. Weaver, L.E. Band, Jill Baron, E.A. Davidson, C.L. Tague, E. Felker-Quinn, J.A. Lynch, J.D. Herrick, L. Liu, C.L. Goodale, K. J. Novak, R. A. Haeuber",
+        "by" : "Ecosystems Mission Area, Ecosystems Land Change Science Program, Fort Collins Science Center",
+        "link" : "https://www.usgs.gov/publications/key-ecological-responses-nitrogen-are-altered-climate-change"
     }
+
 ]

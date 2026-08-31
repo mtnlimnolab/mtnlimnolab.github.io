@@ -38,13 +38,10 @@
             const container = document.getElementById("pi");
             publications.forEach(p => {
             container.innerHTML += `
-                <div class="publication-card">
-                    <div class="contact-container">
-                        <img class="contact-img" src="${p.pic_name}" alt="no img">
-                        <p class="contact-name">${p.name}</p>
-                    </div>
+                <div class="contact-container">
+                    <img class="contact-img" src="${p.pic_name}" alt="${p.name}">
+                    <p class="contact-name">${p.name}</p>
                 </div>
-                <br><br>
             `;
             });
         });
@@ -61,13 +58,10 @@
             const container = document.getElementById("grad-students");
             publications.forEach(g => {
             container.innerHTML += `
-                <div class="publication-card">
-                    <div class="contact-container">
-                        <img class="contact-img" src="${g.pic_name}" alt="no img">
-                        <p class="contact-name">${g.name}</p>
-                    </div>
+                <div class="contact-container">
+                    <img class="contact-img" src="${g.pic_name}" alt="${g.name}">
+                    <p class="contact-name">${g.name}</p>
                 </div>
-                <br><br>
             `;
             });
         });
@@ -83,13 +77,10 @@
             const container = document.getElementById("researchers");
             publications.forEach(r => {
             container.innerHTML += `
-                <div class="publication-card">
-                    <div class="contact-container">
-                        <img class="contact-img" src="${r.pic_name}" alt="no img">
-                        <p class="contact-name">${r.name}</p>
-                    </div>
+                <div class="contact-container">
+                    <img class="contact-img" src="${r.pic_name}" alt="${r.name}">
+                    <p class="contact-name">${r.name}</p>
                 </div>
-                <br><br>
             `;
             });
         });

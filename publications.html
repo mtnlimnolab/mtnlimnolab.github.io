@@ -25,31 +25,248 @@
     </div>
     <!-- Navbar End -->
 
-    <div id="publications-container" class="page-container">
+    <section class="publication-tools" aria-label="Publication search">
+    <label class="publication-search" for="publication-search-input">
+        <span class="publication-search__label">Search publications</span>
 
-        <h2 style="text-align: center;">Related Publications</h2>
+        <div class="publication-search__field">
+            <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+            >
+                <path
+                    d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                />
+            </svg>
 
-        <div id="publications"></div>
+            <input
+                id="publication-search-input"
+                type="search"
+                placeholder="Search titles, authors, topics, or years"
+                autocomplete="off"
+            >
+        </div>
+    </label>
 
-        <script>
-        fetch("./data/publications.json")
-        .then(response => response.json())
-        .then(publications => {
-            const container = document.getElementById("publications");
-            publications.forEach(pub => {
-            container.innerHTML += `
-                <div class="publication-card">
-                <p>${pub.date}</p>
-                <a href="${pub.link} about="_blank" class="pub-title"><h3>${pub.title}</h3></a>
-                <b>${pub.description}</b>
-                <p>Authors: ${pub.authors}</p>
-                <p>By: ${pub.by}</p>
+    <div class="publication-tools__status">
+        <p id="publication-results-count" aria-live="polite"></p>
+
+        <button
+            id="publication-search-clear"
+            class="publication-clear-button"
+            type="button"
+            hidden
+        >
+            Clear search
+        </button>
+    </div>
+</section>
+
+<div id="publications-container"></div>
+
+    <script>
+    const publicationsContainer = document.getElementById(
+        "publications-container"
+    );
+
+    const searchInput = document.getElementById(
+        "publication-search-input"
+    );
+
+    const clearButton = document.getElementById(
+        "publication-search-clear"
+    );
+
+    const resultsCount = document.getElementById(
+        "publication-results-count"
+    );
+
+    let allPublications = [];
+
+    function normalizeText(value) {
+        return String(value ?? "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function createPublicationCard(publication) {
+        const article = document.createElement("article");
+        article.className = "publication-card";
+
+        const date = document.createElement("p");
+        date.className = "publication-card__date";
+        date.textContent = publication.date;
+
+        const title = document.createElement("h2");
+        title.className = "publication-card__title";
+
+        const titleLink = document.createElement("a");
+        titleLink.href = publication.link;
+        titleLink.target = "_blank";
+        titleLink.rel = "noopener noreferrer";
+        titleLink.textContent = publication.title;
+
+        title.appendChild(titleLink);
+
+        const description = document.createElement("p");
+        description.className = "publication-card__description";
+        description.textContent =
+            publication.description || "No abstract available.";
+
+        const metadata = document.createElement("dl");
+        metadata.className = "publication-card__metadata";
+
+        const authorsRow = document.createElement("div");
+        const authorsTerm = document.createElement("dt");
+        const authorsDescription = document.createElement("dd");
+
+        authorsTerm.textContent = "Authors";
+        authorsDescription.textContent = publication.authors;
+
+        authorsRow.append(authorsTerm, authorsDescription);
+
+        const organizationRow = document.createElement("div");
+        const organizationTerm = document.createElement("dt");
+        const organizationDescription = document.createElement("dd");
+
+        organizationTerm.textContent = "By";
+        organizationDescription.textContent = publication.by;
+
+        organizationRow.append(
+            organizationTerm,
+            organizationDescription
+        );
+
+        metadata.append(authorsRow, organizationRow);
+
+        article.append(
+            date,
+            title,
+            description,
+            metadata
+        );
+
+        return article;
+    }
+
+    function renderPublications(publications) {
+        publicationsContainer.replaceChildren();
+
+        if (publications.length === 0) {
+            const emptyState = document.createElement("div");
+            emptyState.className = "publication-empty-state";
+
+            const heading = document.createElement("h2");
+            heading.textContent = "No publications found";
+
+            const message = document.createElement("p");
+            message.textContent =
+                "Try searching for another author, topic, title, or year.";
+
+            emptyState.append(heading, message);
+            publicationsContainer.appendChild(emptyState);
+        } else {
+            const fragment = document.createDocumentFragment();
+
+            publications.forEach((publication) => {
+                fragment.appendChild(
+                    createPublicationCard(publication)
+                );
+            });
+
+            publicationsContainer.appendChild(fragment);
+        }
+
+        const label =
+            publications.length === 1
+                ? "publication"
+                : "publications";
+
+        resultsCount.textContent =
+            `${publications.length} ${label}`;
+    }
+
+    function filterPublications() {
+        const query = normalizeText(searchInput.value.trim());
+
+        clearButton.hidden = query.length === 0;
+
+        if (!query) {
+            renderPublications(allPublications);
+            return;
+        }
+
+        const searchTerms = query
+            .split(/\s+/)
+            .filter(Boolean);
+
+        const filteredPublications = allPublications.filter(
+            (publication) => {
+                const searchableText = normalizeText([
+                    publication.date,
+                    publication.title,
+                    publication.description,
+                    publication.authors,
+                    publication.by
+                ].join(" "));
+
+                return searchTerms.every((term) =>
+                    searchableText.includes(term)
+                );
+            }
+        );
+
+        renderPublications(filteredPublications);
+    }
+
+    async function loadPublications() {
+        try {
+            const response = await fetch(
+                "data/publications.json"
+            );
+
+            if (!response.ok) {
+                throw new Error(
+                    `Unable to load publications: ${response.status}`
+                );
+            }
+
+            allPublications = await response.json();
+
+            renderPublications(allPublications);
+        } catch (error) {
+            console.error(error);
+
+            publicationsContainer.innerHTML = `
+                <div class="publication-empty-state">
+                    <h2>Unable to load publications</h2>
+                    <p>Please refresh the page and try again.</p>
                 </div>
             `;
-            });
-        });
-        </script>
-    </div>
 
+            resultsCount.textContent = "";
+        }
+    }
+
+    searchInput.addEventListener(
+        "input",
+        filterPublications
+    );
+
+    clearButton.addEventListener("click", () => {
+        searchInput.value = "";
+        filterPublications();
+        searchInput.focus();
+    });
+
+    loadPublications();
+</script>
 </body>
 </html>
