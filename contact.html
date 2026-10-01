@@ -40,7 +40,14 @@
             container.innerHTML += `
                 <div class="contact-container">
                     <img class="contact-img" src="${p.pic_name}" alt="${p.name}">
-                    <p class="contact-name">${p.name}</p>
+                    <div class="contact-details">
+                        <p class="contact-name">${p.name}</p>
+                        <div class="contact-affiliations">
+                            ${(p.logos || []).map(logo => `
+                                <img src="${logo.src}" alt="${logo.alt}" loading="lazy">
+                            `).join("")}
+                        </div>
+                    </div>
                 </div>
             `;
             });

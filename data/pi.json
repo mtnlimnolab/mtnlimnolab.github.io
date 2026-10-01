@@ -1,14 +1,24 @@
 [
     {
         "name" : "Isabella Oleksy (CU Boulder)",
-        "pic_name" : "images/bella.JPG"
+        "pic_name" : "images/bella.JPG",
+        "logos": [
+            { "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }
+        ]
     },
     {
         "name" : "Michael Meyer (USGS)",
-        "pic_name" : "images/michael.jpg"
+        "pic_name" : "images/michael.jpg",
+        "logos": [
+            { "src": "images/usgs_logo.png", "alt": "U.S. Geological Survey" }
+        ]
     },
     {
         "name" : "Jill Baron (USGS Emeritus; Colorado State Univ.)",
-        "pic_name" : "images/jill.jpg"
+        "pic_name" : "images/jill.jpg",
+        "logos": [
+            { "src": "images/usgs_logo.png", "alt": "U.S. Geological Survey" },
+            { "src": "images/csu_logo.png", "alt": "Colorado State University" }
+        ]
     }
 ]

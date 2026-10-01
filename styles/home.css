@@ -48,6 +48,22 @@
     font-size: 0.85rem;
 }
 
+.home-partners {
+    display: flex;
+    width: min(calc(100% - 2rem), var(--site-width));
+    margin: 0 auto 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1.5rem, 5vw, 4rem);
+}
+
+.home-partners img {
+    width: clamp(100px, 18vw, 180px);
+    height: 100px;
+    object-fit: contain;
+}
+
 .home-stats {
     display: grid;
     width: min(calc(100% - 2rem), var(--site-width));
