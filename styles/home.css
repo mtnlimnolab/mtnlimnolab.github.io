@@ -184,6 +184,13 @@
     box-shadow: var(--shadow-soft);
 }
 
+.landscape-feature__media.landscape-feature__media--map img {
+    min-height: 0;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+}
+
 .landscape-feature__content h2 {
     margin: 0;
     font-family: var(--font-serif);

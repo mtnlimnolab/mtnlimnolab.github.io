@@ -1,14 +1,26 @@
 [
     {
         "name": "Abby Ross",
-        "pic_name" : "images/abby.jpg"
+        "pic_name" : "images/abby.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
     },
     {
         "name" : "Katie Gannon",
-        "pic_name" : "images/katie.jpg"
+        "pic_name" : "images/katie.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
     },
     {
         "name" : "Adeline Kelly",
-        "pic_name" : "images/adeline.jpg"
+        "pic_name" : "images/adeline.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
+    },
+    {
+        "name": "Luke Knaggs",
+        "pic_name": "images/luke_knaggs.png",
+        "logos": [{ "src": "images/csu_logo.png", "alt": "Colorado State University" }]
+    },
+    {
+        "name": "Mollie Hendry",
+        "logos": [{ "src": "images/csu_logo.png", "alt": "Colorado State University" }]
     }
 ]

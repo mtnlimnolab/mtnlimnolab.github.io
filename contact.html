@@ -28,7 +28,7 @@
 
         <h2 style="text-align: center;">People</h2>
 
-        <h3>Principal Investigators</h3>
+        <h3 class="people-section-title">Principal Investigators</h3>
         <div id="pi"></div>
 
         <script>
@@ -55,7 +55,7 @@
         </script>
 
 
-        <h3>Graduate Students</h3>
+        <h3 class="people-section-title">Graduate Students</h3>
         <div id="grad-students"></div>
 
         <script>
@@ -66,15 +66,22 @@
             publications.forEach(g => {
             container.innerHTML += `
                 <div class="contact-container">
-                    <img class="contact-img" src="${g.pic_name}" alt="${g.name}">
-                    <p class="contact-name">${g.name}</p>
+                    ${g.pic_name ? `<img class="contact-img" src="${g.pic_name}" alt="${g.name}">` : ""}
+                    <div class="contact-details">
+                        <p class="contact-name">${g.name}</p>
+                        <div class="contact-affiliations">
+                            ${(g.logos || []).map(logo => `
+                                <img src="${logo.src}" alt="${logo.alt}" loading="lazy">
+                            `).join("")}
+                        </div>
+                    </div>
                 </div>
             `;
             });
         });
         </script>
 
-        <h3>Researchers</h3>
+        <h3 class="people-section-title">Researchers</h3>
         <div id="researchers"></div>
 
         <script>
@@ -86,7 +93,14 @@
             container.innerHTML += `
                 <div class="contact-container">
                     <img class="contact-img" src="${r.pic_name}" alt="${r.name}">
-                    <p class="contact-name">${r.name}</p>
+                    <div class="contact-details">
+                        <p class="contact-name">${r.name}</p>
+                        <div class="contact-affiliations">
+                            ${(r.logos || []).map(logo => `
+                                <img src="${logo.src}" alt="${logo.alt}" loading="lazy">
+                            `).join("")}
+                        </div>
+                    </div>
                 </div>
             `;
             });

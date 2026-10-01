@@ -730,6 +730,13 @@ iframe {
     box-shadow: var(--shadow-soft);
 }
 
+.landscape-feature__media.landscape-feature__media--map img {
+    min-height: 0;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+}
+
 .landscape-feature__content h2 {
     margin: 0;
     font-family: var(--font-serif);
@@ -1171,16 +1178,35 @@ iframe {
 }
 
 /* === styles/pages.css === */
+.data-context {
+    padding-block: 2rem;
+}
+
+.data-documentation-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+}
+
 .pub-title,
 .data-title {
     color: var(--color-accent-dark);
 }
 
+.people-section-title {
+    width: 100%;
+    max-width: 760px;
+    margin-inline: auto;
+}
+
 .contact-container {
     display: flex;
-    gap: 1.5rem;
+    width: 100%;
+    max-width: 760px;
+    gap: 1rem;
+    margin-inline: auto;
     margin-bottom: 1.5rem;
-    padding: 1.25rem;
+    padding: 1rem;
     align-items: center;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -1195,13 +1221,25 @@ iframe {
     border-radius: var(--radius-medium);
 }
 
+.contact-details {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
 .contact-name {
-    margin-left: 0;
+    margin: 0;
 }
 
 .contact-affiliations {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: auto;
     align-items: center;
     gap: 1rem;
 }

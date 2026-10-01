@@ -25,13 +25,42 @@
     <!-- Navbar End -->
 
 
+    <section class="page-container data-context" aria-labelledby="data-heading">
+        <h2 id="data-heading">Explore the data</h2>
+        <p>
+            The Loch is a subalpine lake; farther upstream, Lake of Glass and
+            Sky Pond sit in alpine terrain. Sampling locations include lake
+            inlets (where water enters), outlets (where it leaves), and the
+            hypolimnion (the deeper water layer below the warmer surface during
+            summer stratification).
+        </p>
+        <p>
+            Beyond water chemistry, explore
+            <a href="https://www.usgs.gov/centers/colorado-water-science-center/water-energy-and-biogeochemical-budgets-webb-loch-vale-data">USGS discharge and meteorological records</a>,
+            <a href="https://nadp.slh.wisc.edu/sites/ntn-co98/">atmospheric deposition at NADP station CO98</a>,
+            and <a href="links.html">additional data releases and field records</a>.
+            Species records are also described in the <a href="publications.html">research publications</a>.
+        </p>
+    </section>
+
+    <section class="page-container data-context" aria-labelledby="documentation-heading">
+        <h2 id="documentation-heading">Methods and documentation</h2>
+        <nav class="data-documentation-links" aria-label="Data documentation">
+            <a href="https://pubs.usgs.gov/publication/tm1D9">QA report (2010–19)</a>
+            <a href="publications.html">Data papers</a>
+            <a href="https://www.usgs.gov/data/field-notebooks-loch-vale-watershed-rocky-mountain-national-park-research-1981-through-2023">Field notebooks</a>
+            <a href="https://www2.nrel.colostate.edu/projects/lvws/assets/LVMethodsManual_180118.pdf">Methods manual (PDF)</a>
+        </nav>
+    </section>
+
     <div id="datapage-container" style="height: 100vh; background-color: white;">
         <iframe
-            src="https://lochvale.shinyapps.io/shiny/" 
+            src="https://lochvale.shinyapps.io/shiny/"
             width="100%"
             height="90%"
             style="border: none;"
             id="iframe"
+            title="Loch Vale water chemistry dashboard"
         ></iframe>
     </div>
 

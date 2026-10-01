@@ -1,14 +1,17 @@
 [
     {
         "name" : "MJ Farruggia",
-        "pic_name" : "images/MJ.jpg"
+        "pic_name" : "images/MJ.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
     },
     {
         "name" : "Charlie Doughtery",
-        "pic_name" : "images/charlie.jpg"
+        "pic_name" : "images/charlie.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
     },
     {
         "name" : "Alexander Gustafson",
-        "pic_name" : "images/alex.jpg"
+        "pic_name" : "images/alex.jpg",
+        "logos": [{ "src": "images/cu_logo.png", "alt": "University of Colorado Boulder" }]
     }
 ]
