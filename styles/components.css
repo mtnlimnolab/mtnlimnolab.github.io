@@ -177,3 +177,33 @@ iframe {
     border-radius: var(--radius-medium);
     box-shadow: var(--shadow-soft);
 }
+
+.field-photo-row {
+    display: grid;
+    width: min(calc(100% - 2rem), var(--site-width));
+    margin: 2rem auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 1rem;
+}
+
+.field-photo-row img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: var(--radius-medium);
+}
+
+.page-container > .field-photo-row {
+    width: 100%;
+}
+
+.page-container:has(#pi) > .field-photo-row {
+    max-width: 760px;
+}
+
+@media (max-width: 600px) {
+    .field-photo-row {
+        grid-template-columns: 1fr;
+    }
+}

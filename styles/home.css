@@ -12,7 +12,7 @@
     max-width: 12ch;
     margin: 0;
     font-family: var(--font-serif);
-    font-size: clamp(3.2rem, 7vw, 6.4rem);
+    font-size: clamp(2.8rem, 6vw, 5.2rem);
     font-weight: 700;
     line-height: 0.96;
     letter-spacing: -0.06em;
@@ -178,8 +178,8 @@
 
 .landscape-feature__media img {
     width: 100%;
-    min-height: 620px;
-    object-fit: cover;
+    min-height: 0;
+    object-fit: contain;
     border-radius: var(--radius-large);
     box-shadow: var(--shadow-soft);
 }

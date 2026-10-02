@@ -45,7 +45,7 @@
     }
 
     .landscape-feature__media img {
-        min-height: 480px;
+        min-height: 0;
     }
 
     .story-hero,
@@ -120,7 +120,7 @@
     }
 
     .home-hero__content h1 {
-        font-size: clamp(3rem, 14vw, 4.7rem);
+        font-size: clamp(2.6rem, 11vw, 3.8rem);
     }
 
     .home-hero__media img {
@@ -149,7 +149,7 @@
     }
 
     .landscape-feature__media img {
-        min-height: 360px;
+        min-height: 0;
     }
 
     .site-footer__inner {
