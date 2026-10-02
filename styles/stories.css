@@ -118,7 +118,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: clamp(2rem, 6vw, 5rem);
-    align-items: center;
+    align-items: start;
     margin-block: 2rem 0;
 }
 
@@ -268,21 +268,25 @@
     max-width: 850px;
 }
 
-.story-gallery {
+.photo-gallery {
     width: min(calc(100% - 2rem), var(--site-width));
     margin: 0 auto 4rem;
 }
 
-.story-gallery .story-gallery__row {
+.photo-gallery .photo-gallery__row {
     width: 100%;
 }
 
-.story-gallery__row--portraits {
+.photo-gallery__row--portraits {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 @media (max-width: 600px) {
-    .story-gallery__row--portraits {
+    .photo-gallery__row--portraits {
         grid-template-columns: 1fr;
     }
+}
+
+.gallery-page {
+    padding-top: 3rem;
 }

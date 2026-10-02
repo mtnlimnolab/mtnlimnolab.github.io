@@ -17,6 +17,7 @@ no build step or dependency installation.
 | `index.html` | Homepage, watershed overview, map, and partner logos |
 | `data.html` | Embedded Shiny dashboard and data documentation links |
 | `stories.html` | Research findings explained in plain language |
+| `gallery.html` | Fieldwork, wildlife, and watershed photo gallery |
 | `publications.html` | Searchable publications list |
 | `contact.html` | People page |
 | `links.html` | Additional data releases and resources |
@@ -49,6 +50,9 @@ the server.
   `data/researchers.json`. Add photos to `images/` and set `pic_name` to their
   relative path. Affiliation logos go in the `logos` list. Graduate students can
   omit `pic_name` until a photo is available.
+- **Gallery photos:** Add images to `images/` and update the photo rows in
+  `gallery.html`. Keep horizontal and vertical photos in separate groups and
+  provide descriptive alt text. Photos display without cropping.
 - **Data resources:** Edit documentation links in `data.html` and resource entries
   in `data/data.json` for the Links page.
 - **Shiny dashboard:** The app is hosted separately at

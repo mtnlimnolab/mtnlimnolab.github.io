@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=gallery-1">
+    <script src="scripts/navigation.js" defer></script>
 </head>
 <body>
 
@@ -14,12 +15,17 @@
             <h1 class="logo">Loch Vale</h1>
         </div>
 
-        <div class="navbar right">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Open navigation" hidden>
+            <span aria-hidden="true">☰</span>
+        </button>
+
+        <div class="navbar right" id="mobile-navigation">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="data.html">Data</a>
             <a class="nav-link" href="links.html">Links</a>
             <a class="nav-link" href="stories.html">Stories</a>
-            <a class="nav-link" href="publications.html">Publications</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link nav-link--active" href="publications.html" aria-current="page">Publications</a>
             <a class="nav-link" href="contact.html">People</a>
         </div>
     </div>

@@ -8,7 +8,8 @@
         content="A plain-language overview of acid rain, nitrogen, and climate research at Loch Vale."
     >
     <title>Stories | Loch Vale Watershed Research</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=gallery-1">
+    <script src="scripts/navigation.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -18,11 +19,16 @@
                 <span class="site-logo__secondary">Watershed Research</span>
             </a>
 
-            <div class="site-nav__links">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Open navigation" hidden>
+                <span aria-hidden="true">☰</span>
+            </button>
+
+            <div class="site-nav__links" id="mobile-navigation">
                 <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="data.html">Data</a>
                 <a class="nav-link" href="links.html">Links</a>
-                <a class="nav-link nav-link--active" href="stories.html">Stories</a>
+                <a class="nav-link nav-link--active" href="stories.html" aria-current="page">Stories</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
                 <a class="nav-link" href="publications.html">Publications</a>
                 <a class="nav-link" href="contact.html">People</a>
             </div>
@@ -211,35 +217,6 @@
             </footer>
         </section>
 
-        <section class="story-gallery" aria-labelledby="gallery-heading">
-            <header class="section-heading">
-                <p class="eyebrow">In the field</p>
-                <h2 id="gallery-heading">Loch Vale photo gallery</h2>
-            </header>
-        <div class="field-photo-row story-gallery__row" role="group" aria-label="Loch Vale fieldwork">
-            <figure><img src="images/20250722%20Loch%20Oleksy%20crevice%203.jpg" alt="Researchers examining a sample among alpine rocks" loading="lazy"></figure>
-            <figure><img src="images/IMG_6283.JPG" alt="Snowfall over a forest-lined mountain lake" loading="lazy"></figure>
-            <figure><img src="images/IMG_4585.JPG" alt="Researcher pulling a sled of equipment through snow" loading="lazy"></figure>
-            <figure><img src="images/IMG_5345.JPG" alt="Researchers checking monitoring equipment in the snow" loading="lazy"></figure>
-        </div>
-            <div class="field-photo-row story-gallery__row" role="group" aria-label="Water sampling and field equipment">
-                <figure><img src="images/IMG_6488.JPG" alt="Researcher sampling beside a flowing stream" loading="lazy"></figure>
-                <figure><img src="images/IMG_7035.JPG" alt="Sample containers and field equipment arranged for collection" loading="lazy"></figure>
-            </div>
-        <div class="field-photo-row story-gallery__row" role="group" aria-label="Loch Vale fieldwork">
-            <figure><img src="images/IMG_7500.JPG" alt="Field researcher beside alpine vegetation and rocks" loading="lazy"></figure>
-            <figure><img src="images/20250722%20Loch%20Oleksy%20outflow%202.jpg" alt="Researcher holding a small specimen for inspection" loading="lazy"></figure>
-        </div>
-        <div class="field-photo-row story-gallery__row" role="group" aria-label="Loch Vale fieldwork and wildlife">
-            <figure><img src="images/20250722%20Loch%20Oleksy%20snow%20hike.jpg" alt="Field team hiking across a steep snowfield" loading="lazy"></figure>
-            <figure><img src="images/moose.JPG" alt="Moose standing in a forest-lined lake" loading="lazy"></figure>
-        </div>
-            <div class="field-photo-row story-gallery__row story-gallery__row--portraits" role="group" aria-label="Winter fieldwork">
-                <figure><img src="images/IMG_3072.JPG" alt="Researcher measuring a snowpack profile" loading="lazy"></figure>
-                <figure><img src="images/IMG_6441.JPG" alt="Field team traveling through a snowy mountain forest" loading="lazy"></figure>
-                <figure><img src="images/IMG_9281.jpeg" alt="Field team traveling on skis with backpacks" loading="lazy"></figure>
-            </div>
-        </section>
     </main>
 </body>
 </html>
