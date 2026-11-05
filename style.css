@@ -1182,6 +1182,13 @@ iframe {
     padding-block: 2rem;
 }
 
+.data-dashboard-note {
+    width: min(calc(100% - 2rem), var(--site-width));
+    margin: 1rem auto;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+}
+
 .data-documentation-links {
     display: flex;
     flex-wrap: wrap;
