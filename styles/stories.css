@@ -275,14 +275,21 @@
 
 .photo-gallery .photo-gallery__row {
     width: 100%;
+    grid-template-columns: var(--photo-columns, repeat(2, minmax(0, 1fr)));
+    margin-block: 1rem;
 }
 
-.photo-gallery__row--portraits {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+.photo-gallery__row figure {
+    min-width: 0;
+    margin: 0;
+}
+
+.photo-gallery__row img {
+    display: block;
 }
 
 @media (max-width: 600px) {
-    .photo-gallery__row--portraits {
+    .photo-gallery .photo-gallery__row {
         grid-template-columns: 1fr;
     }
 }
