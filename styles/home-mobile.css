@@ -1,0 +1,200 @@
+/* Homepage-only adjustments; loaded after the shared stylesheet. */
+@media (max-width: 760px) {
+    .home-hero {
+        width: calc(100% - 2rem);
+        padding-block: 2rem;
+        gap: 1.5rem;
+    }
+
+    .home-hero .eyebrow {
+        max-width: 28ch;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+
+    .home-hero__content h1 {
+        max-width: 15ch;
+        font-size: clamp(2.4rem, 10vw, 3.8rem);
+        line-height: 1.04;
+        letter-spacing: -0.045em;
+        text-wrap: balance;
+    }
+
+    .home-hero__intro {
+        margin-top: 1.25rem;
+        font-size: 1.05rem;
+    }
+
+    .home-hero__actions {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem 1.25rem;
+        margin-top: 1.25rem;
+    }
+
+    .home-hero__actions a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    .home-hero__media {
+        margin: 0;
+    }
+
+    .home-hero__media img {
+        display: block;
+        min-height: 0;
+        height: auto;
+        max-height: 420px;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        object-position: center;
+        border-radius: var(--radius-medium);
+    }
+
+    .home-hero__media figcaption {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .home-partners {
+        width: calc(100% - 2rem);
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .home-partners img {
+        width: 100%;
+        height: 58px;
+    }
+
+    .home-stats {
+        width: calc(100% - 2rem);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        border-radius: var(--radius-medium);
+    }
+
+    .home-stat {
+        min-height: 0;
+        padding: 1.25rem 1rem;
+        justify-content: flex-start;
+        border: 0;
+    }
+
+    .home-stat:nth-child(odd) {
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .home-stat:nth-child(-n + 2) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .home-stat__value {
+        font-size: clamp(1.25rem, 5.4vw, 2rem);
+        line-height: 1.15;
+    }
+
+    .home-stat__label {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .home-section {
+        width: calc(100% - 2rem);
+        padding-block: 2.5rem;
+    }
+
+    .home-section__heading {
+        margin-bottom: 1.25rem;
+    }
+
+    .home-section .topic-card-grid {
+        gap: 0.75rem;
+    }
+
+    .home-section .topic-card {
+        min-height: 0;
+        padding: 1.25rem;
+        border-radius: var(--radius-medium);
+        box-shadow: none;
+    }
+
+    .home-section .topic-card::after {
+        display: none;
+    }
+
+    .home-section .topic-card h3 {
+        margin-top: 0.4rem;
+        font-size: 1.5rem;
+    }
+
+    .home-section .topic-card p {
+        margin-top: 0.6rem;
+        font-size: 0.95rem;
+    }
+
+    .home-section--landscape {
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .home-section .landscape-feature {
+        gap: 1.5rem;
+    }
+
+    .home-section .landscape-feature__content {
+        order: -1;
+    }
+
+    .home-section .landscape-feature__content h2 {
+        font-size: clamp(2rem, 8vw, 2.8rem);
+        text-wrap: balance;
+    }
+
+    .home-section .land-cover-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 1.25rem;
+        gap: 0.6rem;
+    }
+
+    .home-section .land-cover-list div {
+        padding: 0.85rem;
+    }
+
+    .home-section .landscape-feature__media {
+        margin: 0;
+    }
+
+    main > .field-photo-row {
+        width: calc(100% - 2rem);
+        gap: 1rem;
+        margin-block: 1.5rem;
+    }
+
+    main > .field-photo-row figure {
+        margin: 0;
+    }
+
+    main > .field-photo-row img {
+        display: block;
+    }
+
+    .site-footer__inner {
+        gap: 1rem;
+    }
+
+    .site-footer__links {
+        flex-wrap: wrap;
+        gap: 0.5rem 1.25rem;
+    }
+
+    .site-footer__links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+}
