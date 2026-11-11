@@ -1,5 +1,9 @@
 /* Homepage-only adjustments; loaded after the shared stylesheet. */
 @media (max-width: 760px) {
+    .home-hero__actions .button-link {
+        display: none;
+    }
+
     .home-hero {
         width: calc(100% - 2rem);
         padding-block: 2rem;

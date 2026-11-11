@@ -20,8 +20,7 @@ no build step or dependency installation.
 | `gallery.html` | Fieldwork, wildlife, and watershed photo gallery |
 | `publications.html` | Searchable publications list |
 | `contact.html` | People page |
-| `links.html` | Additional data releases and resources |
-| `data/` | JSON lists used by the publications, people, and links pages |
+| `data/` | JSON lists used by the publications, people pages |
 | `images/` | Photos, logos, and watershed map |
 | `style.css` | Stylesheet loaded by the pages |
 | `styles/` | Separate stylesheets organized by topic |

@@ -74,7 +74,8 @@
 
 @media (max-width: 760px) {
     .site-header {
-        position: static;
+        position: sticky;
+        top: 0;
         padding-inline: 0.75rem;
     }
 
@@ -94,7 +95,8 @@
     }
 
     .navbar-container {
-        position: static;
+        position: sticky;
+        top: 0;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -273,6 +275,13 @@
         gap: 0.25rem;
         padding-top: 0.75rem;
         border-top: 1px solid var(--color-border);
+    }
+
+    .navigation-open #mobile-navigation {
+        max-height: calc(100vh - 110px);
+        max-height: calc(100dvh - 110px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
     }
 
     .navigation-open .nav-link {
